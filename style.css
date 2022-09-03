@@ -1,0 +1,16 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+.header{
+  background-color: cornflowerblue;
+  
+}
+.menu{
+  background-color: rgb(251, 32, 32);
+  
+}
+.content{
+  background-color: yellowgreen;
+}
+.footer{
+  background-color: rgb(12, 255, 174);
+}

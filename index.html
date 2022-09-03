@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <style>
+            .container{
+                 display: grid;
+                 grid-template-columns: repeat(12, 1fr);
+                 grid-template-rows: 50px 300px 50px;
+                 height: 100%;
+                 grid-gap: 10px;
+
+                      }
+                 .header{
+                    grid-column: 2/-1; 
+                 } 
+                 .footer{
+                    grid-column: 2/-1;
+                 }
+                 .content{
+                    grid-column: 2/-1;
+                 }
+                 .menu{
+                    grid-row: 1/4;
+                 }
+        </style>
+    </head>
+    <body>
+    <div class="container">
+        <div class="header">HEADER</div>
+        <div class="menu">MENU</div>
+        <div class="content">CONTENT</div>
+        <div class="footer">FOOTER</div>
+    </div>
+    </body>
+</html>
